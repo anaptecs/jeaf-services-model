@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JMM="http://JMM/_11_5_1ab00d4_1164055757453_405595_1" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xsi:schemaLocation="http://JMM/_11_5_1ab00d4_1164055757453_405595_1 JMM.profile.uml#_xTw3UtapEfCxJ9GdDsS0zw http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JMM="http://JMM/_11_5_1ab00d4_1164055757453_405595_1" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xsi:schemaLocation="http://JMM/_11_5_1ab00d4_1164055757453_405595_1 JMM.profile.uml#_vvZwntkJEfCGq_DSKmEnqw http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
   <uml:Model xmi:id="558a8e94-cfd2-4fab-bd27-83bf709c7f95" name="Data" viewpoint="">
     <packageImport xmi:id="_0primitiveTypesData">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -2629,8 +2629,7 @@
                     <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="5b57e40d-7e14-467a-ad37-8251fe3aa612" name="" value="1"/>
                     <lowerValue xmi:type="uml:LiteralInteger" xmi:id="dd1212ac-1b9c-46b5-bfe7-f62fa0fb16ec" name="" value="1"/>
                   </ownedAttribute>
-                  <ownedAttribute xmi:id="3832b504-4233-42b2-9974-6b6cb2c85bf8" name="serviceInterface" visibility="private" association="73c05d63-b62d-43f6-8dcd-78686b6cc41a">
-                    <type xmi:type="uml:Class" href="Java_5_0_Profile.uml#7963a3dc-e056-40fc-98a5-e9421b5bcd88"/>
+                  <ownedAttribute xmi:id="3832b504-4233-42b2-9974-6b6cb2c85bf8" name="serviceInterface" visibility="private" type="e20ac588-a3b5-4c1a-815e-7979588fafda" association="73c05d63-b62d-43f6-8dcd-78686b6cc41a">
                     <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="6c3e1383-c5fe-4bee-b0d4-ef1850ebcd23" name="" value="1"/>
                     <lowerValue xmi:type="uml:LiteralInteger" xmi:id="fe7eafc8-75d4-4ddd-87bc-6d0197b682e5" name="" value="1"/>
                   </ownedAttribute>
@@ -2752,8 +2751,7 @@
                 </packagedElement>
                 <packagedElement xmi:type="uml:Class" xmi:id="2c9ec234-54df-442b-b466-eab655b05b12" name="ServiceProviderInfo">
                   <ownedComment xmi:id="ea2af4a3-add8-4b91-b37d-ee775e126cc8" body="This ServiceObject represents a ServiceProvider. It is used to store gathered informations from {@link ServiceProvider} objects." annotatedElement="2c9ec234-54df-442b-b466-eab655b05b12"/>
-                  <ownedAttribute xmi:id="6993e7e6-1230-400b-a33b-e189d168415c" name="serviceProviderInterface" visibility="private" association="6c742e5b-7dd8-4dfd-ab79-044d6c36c948">
-                    <type xmi:type="uml:Class" href="Java_5_0_Profile.uml#7963a3dc-e056-40fc-98a5-e9421b5bcd88"/>
+                  <ownedAttribute xmi:id="6993e7e6-1230-400b-a33b-e189d168415c" name="serviceProviderInterface" visibility="private" type="e20ac588-a3b5-4c1a-815e-7979588fafda" association="6c742e5b-7dd8-4dfd-ab79-044d6c36c948">
                     <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="68e4251e-a9dc-4519-a472-96f640b01961" name="" value="1"/>
                     <lowerValue xmi:type="uml:LiteralInteger" xmi:id="b1550df8-f59f-42bb-8a98-0426928d80ff" name="" value="1"/>
                   </ownedAttribute>
@@ -2944,6 +2942,14 @@
                 </packagedElement>
                 <packagedElement xmi:type="uml:Association" xmi:id="a778e58e-7025-4a89-9ca7-c9cc51296f4b" name="" memberEnd="d22037bd-b484-4f23-b779-cf16b3ccff7f 7106cc88-a6b5-426e-b1a5-c5a0ea2d8cf8">
                   <ownedEnd xmi:id="d22037bd-b484-4f23-b779-cf16b3ccff7f" name="" visibility="private" type="4d9a37bf-d9fb-4f45-b48b-898c01f04559" association="a778e58e-7025-4a89-9ca7-c9cc51296f4b"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="e20ac588-a3b5-4c1a-815e-7979588fafda" name="AnyClass">
+                  <templateBinding xmi:id="53e8626e-60c2-493a-9ac9-a9cee5e7a21c">
+                    <signature xmi:type="uml:RedefinableTemplateSignature" href="Java_5_0_Profile.uml#52829d3f-d153-44c2-97dd-ff54f9fd9133"/>
+                    <parameterSubstitution xmi:id="d4230755-6b39-4320-83ce-428e487c2fa6">
+                      <formal xmi:type="uml:ClassifierTemplateParameter" href="Java_5_0_Profile.uml#4bac6ae9-b70b-4f9e-82f0-501a40e5f6d2"/>
+                    </parameterSubstitution>
+                  </templateBinding>
                 </packagedElement>
               </packagedElement>
               <packagedElement xmi:type="uml:Package" xmi:id="51283d04-19ee-41aa-84ab-f76193fdbdf0" name="scheduling">
@@ -3147,7 +3153,7 @@
                 <packagedElement xmi:type="uml:StateMachine" xmi:id="2fae9814-c8b0-4f50-8744-9b8769e1ed2f" name="Task States" isReentrant="true">
                   <region xmi:id="1e256972-14f6-4443-8b4b-b83f417ce33f" name="" visibility="public">
                     <subvertex xmi:type="uml:Pseudostate" xmi:id="bd6fc75b-7398-4f09-9f03-ae54ce112c43" name="" visibility="public" outgoing="26d0dbd5-c9d1-4951-82c4-93dbe95b851c"/>
-                    <subvertex xmi:type="uml:State" xmi:id="44605c23-528b-40ad-83bc-828928780849" name="Scheduled" visibility="public" outgoing="7b86d8d7-3859-4922-a0b6-f31257931394 786be783-322d-4820-b06d-e244192054a5 26f77bbb-23fa-4771-bc1c-05029f75a902" incoming="26d0dbd5-c9d1-4951-82c4-93dbe95b851c 70510950-f8ce-49dc-b3cc-c1a1a2ddefe1"/>
+                    <subvertex xmi:type="uml:State" xmi:id="44605c23-528b-40ad-83bc-828928780849" name="Scheduled" visibility="public" outgoing="786be783-322d-4820-b06d-e244192054a5 26f77bbb-23fa-4771-bc1c-05029f75a902 7b86d8d7-3859-4922-a0b6-f31257931394" incoming="26d0dbd5-c9d1-4951-82c4-93dbe95b851c 70510950-f8ce-49dc-b3cc-c1a1a2ddefe1"/>
                     <subvertex xmi:type="uml:State" xmi:id="53582c1e-35a2-4c27-8c5b-82e1f65f65e5" name="Locked" visibility="public" outgoing="8ff7ba46-490d-4310-b5aa-42c088c2feff 70510950-f8ce-49dc-b3cc-c1a1a2ddefe1" incoming="7b86d8d7-3859-4922-a0b6-f31257931394 786be783-322d-4820-b06d-e244192054a5"/>
                     <subvertex xmi:type="uml:State" xmi:id="af42719a-32ee-474b-a186-39b9d30b86f0" name="Executed" visibility="public" outgoing="0a137ffb-ab9e-48ae-b880-274d83a970c8" incoming="8ff7ba46-490d-4310-b5aa-42c088c2feff"/>
                     <subvertex xmi:type="uml:State" xmi:id="51bf6009-5594-4c65-aacc-ef6a942d6501" name="Stopped" visibility="public" outgoing="b1280fa8-e666-4afc-b79c-5e04747d9e36" incoming="26f77bbb-23fa-4771-bc1c-05029f75a902"/>
@@ -3726,233 +3732,233 @@
         </packagedElement>
       </packagedElement>
     </packagedElement>
-    <profileApplication xmi:id="5543cc08-59a5-4ed1-9400-a6b67e4614a7profileApplicationData">
-      <eAnnotations xmi:id="_xTyFG9apEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.profile.uml#_xTxjNdapEfCxJ9GdDsS0zw"/>
-      </eAnnotations>
-      <appliedProfile href="UML_Profile_for_Java.profile.uml#5543cc08-59a5-4ed1-9400-a6b67e4614a7"/>
-    </profileApplication>
-    <profileApplication xmi:id="c1fbad2a-6be4-4206-9de7-7ee2b3563518profileApplicationData">
-      <eAnnotations xmi:id="_xTz5UdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.statements.profile.uml#_xTxh-9apEfCxJ9GdDsS0zw"/>
-      </eAnnotations>
-      <appliedProfile href="UML_Profile_for_Java.statements.profile.uml#c1fbad2a-6be4-4206-9de7-7ee2b3563518"/>
-    </profileApplication>
-    <profileApplication xmi:id="646425cf-3470-49c6-b8cf-6661318bb721profileApplicationData">
-      <eAnnotations xmi:id="_xT1HcdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_xTw3RNapEfCxJ9GdDsS0zw"/>
-      </eAnnotations>
-      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#646425cf-3470-49c6-b8cf-6661318bb721"/>
-    </profileApplication>
-    <profileApplication xmi:id="f98da569-cd9b-4896-b74a-09baed939d7fprofileApplicationData">
-      <eAnnotations xmi:id="_xT2VkdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_xTudhNapEfCxJ9GdDsS0zw"/>
-      </eAnnotations>
-      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#f98da569-cd9b-4896-b74a-09baed939d7f"/>
-    </profileApplication>
-    <profileApplication xmi:id="4b1e86ab-ba43-4bc5-8135-9c6a78a0f847profileApplicationData">
-      <eAnnotations xmi:id="_xT28odapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_xTuaWtapEfCxJ9GdDsS0zw"/>
-      </eAnnotations>
-      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#4b1e86ab-ba43-4bc5-8135-9c6a78a0f847"/>
-    </profileApplication>
     <profileApplication xmi:id="03c42977-f1ea-4bae-8107-edb5f6165f5bprofileApplicationData">
-      <eAnnotations xmi:id="_xT4KwdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_xTxif9apEfCxJ9GdDsS0zw"/>
+      <eAnnotations xmi:id="_vveogNkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_vvZJ9dkJEfCGq_DSKmEnqw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#03c42977-f1ea-4bae-8107-edb5f6165f5b"/>
     </profileApplication>
-    <profileApplication xmi:id="d3d67465-8978-4365-b957-a58e7e3d81c5profileApplicationData">
-      <eAnnotations xmi:id="_xT5Y4dapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="JMM.profile.uml#_xTw3UtapEfCxJ9GdDsS0zw"/>
+    <profileApplication xmi:id="f98da569-cd9b-4896-b74a-09baed939d7fprofileApplicationData">
+      <eAnnotations xmi:id="_vvhr0dkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_vvWuDtkJEfCGq_DSKmEnqw"/>
       </eAnnotations>
-      <appliedProfile href="JMM.profile.uml#d3d67465-8978-4365-b957-a58e7e3d81c5"/>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#f98da569-cd9b-4896-b74a-09baed939d7f"/>
+    </profileApplication>
+    <profileApplication xmi:id="c805e7d0-2e48-4990-8b48-1e7e472ae0c6profileApplicationData">
+      <eAnnotations xmi:id="_vvlWMNkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_vvMUotkJEfCGq_DSKmEnqw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#c805e7d0-2e48-4990-8b48-1e7e472ae0c6"/>
+    </profileApplication>
+    <profileApplication xmi:id="5543cc08-59a5-4ed1-9400-a6b67e4614a7profileApplicationData">
+      <eAnnotations xmi:id="_vvnLYdkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.profile.uml#_vvWs-tkJEfCGq_DSKmEnqw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Profile_for_Java.profile.uml#5543cc08-59a5-4ed1-9400-a6b67e4614a7"/>
+    </profileApplication>
+    <profileApplication xmi:id="646425cf-3470-49c6-b8cf-6661318bb721profileApplicationData">
+      <eAnnotations xmi:id="_vvpAkdkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_vvXX-tkJEfCGq_DSKmEnqw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#646425cf-3470-49c6-b8cf-6661318bb721"/>
     </profileApplication>
     <profileApplication xmi:id="bd8631b2-5672-44e2-84a3-fab093649c90profileApplicationData">
-      <eAnnotations xmi:id="_xT6nAdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_xTxkkdapEfCxJ9GdDsS0zw"/>
+      <eAnnotations xmi:id="_vvq1wNkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_vvZKs9kJEfCGq_DSKmEnqw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml#bd8631b2-5672-44e2-84a3-fab093649c90"/>
     </profileApplication>
     <profileApplication xmi:id="3f4ffe9b-c530-4590-9067-49518a66c21cprofileApplicationData">
-      <eAnnotations xmi:id="_xT71IdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.deployment.profile.uml#_xTxkSdapEfCxJ9GdDsS0zw"/>
+      <eAnnotations xmi:id="_vvsq8NkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.deployment.profile.uml#_vvWsstkJEfCGq_DSKmEnqw"/>
       </eAnnotations>
       <appliedProfile href="UML_Profile_for_Java.deployment.profile.uml#3f4ffe9b-c530-4590-9067-49518a66c21c"/>
     </profileApplication>
+    <profileApplication xmi:id="d3d67465-8978-4365-b957-a58e7e3d81c5profileApplicationData">
+      <eAnnotations xmi:id="_vvt5EdkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JMM.profile.uml#_vvZwntkJEfCGq_DSKmEnqw"/>
+      </eAnnotations>
+      <appliedProfile href="JMM.profile.uml#d3d67465-8978-4365-b957-a58e7e3d81c5"/>
+    </profileApplication>
     <profileApplication xmi:id="98854953-8e4f-42b7-9b11-77969af3c853profileApplicationData">
-      <eAnnotations xmi:id="_xT9DQdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfile.profile.uml#_xTuaVNapEfCxJ9GdDsS0zw"/>
+      <eAnnotations xmi:id="_vvvuQdkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfile.profile.uml#_vvXX9NkJEfCGq_DSKmEnqw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.StandardProfile.profile.uml#98854953-8e4f-42b7-9b11-77969af3c853"/>
     </profileApplication>
-    <profileApplication xmi:id="c805e7d0-2e48-4990-8b48-1e7e472ae0c6profileApplicationData">
-      <eAnnotations xmi:id="_xT-RYdapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_xTxgwNapEfCxJ9GdDsS0zw"/>
+    <profileApplication xmi:id="4b1e86ab-ba43-4bc5-8135-9c6a78a0f847profileApplicationData">
+      <eAnnotations xmi:id="_vvw8YdkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_vvYmVNkJEfCGq_DSKmEnqw"/>
       </eAnnotations>
-      <appliedProfile href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#c805e7d0-2e48-4990-8b48-1e7e472ae0c6"/>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#4b1e86ab-ba43-4bc5-8135-9c6a78a0f847"/>
+    </profileApplication>
+    <profileApplication xmi:id="c1fbad2a-6be4-4206-9de7-7ee2b3563518profileApplicationData">
+      <eAnnotations xmi:id="_vvyxkdkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.statements.profile.uml#_vvaa8tkJEfCGq_DSKmEnqw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Profile_for_Java.statements.profile.uml#c1fbad2a-6be4-4206-9de7-7ee2b3563518"/>
     </profileApplication>
     <profileApplication xmi:id="_0profileApplicationData">
-      <eAnnotations xmi:id="_xUt4QtapEfCxJ9GdDsS0zw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:id="_vxNt4dkJEfCGq_DSKmEnqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
       </eAnnotations>
       <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <JMM:LoadStrategy xmi:id="_xUlVYNapEfCxJ9GdDsS0zw" base_Class="9d501a8c-9dd7-480c-9aca-6d8769405986"/>
-  <JMM:LoadStrategy xmi:id="_xUlVYdapEfCxJ9GdDsS0zw" base_Class="5ad094d9-2022-4dc5-9983-b408f1a630c3"/>
-  <JMM:LoadStrategy xmi:id="_xUlVYtapEfCxJ9GdDsS0zw" base_Class="7bbb846c-b007-4afe-8d19-d8905d54a275"/>
-  <JMM:LoadStrategy xmi:id="_xUlVY9apEfCxJ9GdDsS0zw" base_Class="b0594681-827c-4e51-8e26-ae798a0fd969"/>
-  <JMM:LoadStrategy xmi:id="_xUlVZNapEfCxJ9GdDsS0zw" base_Class="4776f105-f1bc-45fd-8936-0dfb8154b886"/>
-  <JMM:LoadStrategy xmi:id="_xUlVZdapEfCxJ9GdDsS0zw" base_Class="e37cee51-cc01-4de8-a0f6-f979bbaac5dc"/>
-  <JMM:JEAFServiceProvider xmi:id="_xUlVZtapEfCxJ9GdDsS0zw" base_Interface="7b63daea-295d-4d2f-9704-5a67c6709d4c"/>
-  <JMM:JEAFServiceProvider xmi:id="_xUlVZ9apEfCxJ9GdDsS0zw" base_Interface="0dbd3b09-609e-422f-b2d0-2ec7e7c1cf97"/>
-  <JMM:JEAFServiceProvider xmi:id="_xUl8cNapEfCxJ9GdDsS0zw" base_Interface="65c40719-8b48-4d61-bb3a-1bb99535e189"/>
-  <JMM:JEAFServiceProvider xmi:id="_xUl8cdapEfCxJ9GdDsS0zw" base_Interface="ef7a1d5e-8e35-486e-b74f-6b97a783321f"/>
-  <JMM:JEAFServiceProvider xmi:id="_xUl8ctapEfCxJ9GdDsS0zw" base_Interface="663539b1-893a-45db-8086-711ac169afce"/>
-  <JMM:JEAFServiceProvider xmi:id="_xUl8c9apEfCxJ9GdDsS0zw" base_Interface="91fedbcc-8ca4-4914-a333-154fbbc3e680"/>
-  <JMM:ApplicationException xmi:id="_xUl8dNapEfCxJ9GdDsS0zw" base_Class="728db9f5-ac09-4d9b-9029-ad83797e87c2"/>
-  <JMM:ApplicationException xmi:id="_xUl8ddapEfCxJ9GdDsS0zw" base_Class="fbb59b7a-83aa-48f5-b49e-a78ff90f2cc3"/>
-  <JMM:ApplicationException xmi:id="_xUl8dtapEfCxJ9GdDsS0zw" base_Class="34afc994-4e14-4d82-90fa-0af477bdf8ce"/>
-  <JMM:ApplicationException xmi:id="_xUl8d9apEfCxJ9GdDsS0zw" base_Class="53b3a948-06b9-43a3-9359-59a5bd2a9ee7"/>
-  <JMM:ApplicationException xmi:id="_xUl8eNapEfCxJ9GdDsS0zw" base_Class="a4a89418-48fc-41ba-90d5-e126329f69b9"/>
-  <JMM:ApplicationException xmi:id="_xUl8edapEfCxJ9GdDsS0zw" base_Class="44128943-aebe-4a1c-949c-d16bd351a9c8"/>
-  <JMM:Field xmi:id="_xUl8etapEfCxJ9GdDsS0zw" base_Property="9192f84c-eef7-4434-9d3d-6783d174ca59"/>
-  <JMM:Field xmi:id="_xUl8e9apEfCxJ9GdDsS0zw" base_Property="65f45158-ffa6-4fb5-a43a-86426ac99079"/>
-  <JMM:Field xmi:id="_xUl8fNapEfCxJ9GdDsS0zw" base_Property="ddc5033f-767c-4009-8953-3474d4c18385" charLength="15"/>
-  <JMM:Field xmi:id="_xUl8fdapEfCxJ9GdDsS0zw" base_Property="d447e05a-00e8-45b9-9814-514a6cc38b40"/>
-  <JMM:Field xmi:id="_xUl8ftapEfCxJ9GdDsS0zw" base_Property="fb126dcc-cb5d-4a38-a19a-6cc053815772"/>
-  <JMM:UserType xmi:id="_xUl8f9apEfCxJ9GdDsS0zw" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.GenderType" base_Enumeration="7bceb940-d8d9-41b1-86b4-9d0df5874c72"/>
-  <JMM:UserType xmi:id="_xUl8gNapEfCxJ9GdDsS0zw" base_Class="de4466e9-dd37-4d9d-baf3-99f068a520a0" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.EncryptedStringType"/>
-  <JMM:UserType xmi:id="_xUl8gdapEfCxJ9GdDsS0zw" base_Class="47902314-eedc-4f18-8bc8-89358d019317" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.PeriodType"/>
-  <JMM:UserType xmi:id="_xUl8gtapEfCxJ9GdDsS0zw" base_Class="da80d511-dd33-4c70-86fd-f99243da97ca" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.LocalizedStringType"/>
-  <JMM:ServiceObject xmi:id="_xUl8g9apEfCxJ9GdDsS0zw" base_Class="4d9a37bf-d9fb-4f45-b48b-898c01f04559"/>
-  <JMM:ServiceObject xmi:id="_xUl8hNapEfCxJ9GdDsS0zw" base_Class="e1f33f36-2093-4ddd-91fc-d192b91b87cf"/>
-  <JMM:ServiceObject xmi:id="_xUl8hdapEfCxJ9GdDsS0zw" base_Class="c5775e4b-9494-4208-b5ca-5d573d52c93b"/>
-  <JMM:ServiceObject xmi:id="_xUl8htapEfCxJ9GdDsS0zw" base_Class="32354df4-dff1-4356-a61c-2f9f4e344e2e"/>
-  <JMM:ServiceObject xmi:id="_xUl8h9apEfCxJ9GdDsS0zw" base_Class="b362fed4-e1b8-4b87-9380-312c06ac137c"/>
-  <JMM:ServiceObject xmi:id="_xUl8iNapEfCxJ9GdDsS0zw" base_Class="2c9ec234-54df-442b-b466-eab655b05b12"/>
-  <JMM:ServiceObject xmi:id="_xUl8idapEfCxJ9GdDsS0zw" base_Class="698c867f-6ed4-42d6-87e1-deb17b5a0dd2"/>
-  <JMM:ServiceObject xmi:id="_xUl8itapEfCxJ9GdDsS0zw" base_Class="d98158bd-4740-4e70-9c6a-c2347681dc5e"/>
-  <JMM:ServiceObject xmi:id="_xUl8i9apEfCxJ9GdDsS0zw" base_Class="d71e962e-61aa-4652-b250-ae9c5c3d5004"/>
-  <JMM:ServiceObject xmi:id="_xUl8jNapEfCxJ9GdDsS0zw" base_Class="9c22ea3b-9b8a-4e30-8d87-ce99ce53a515"/>
-  <JMM:ServiceObject xmi:id="_xUl8jdapEfCxJ9GdDsS0zw" base_Class="18614848-2553-463a-bc82-f121551b2398"/>
-  <JMM:ServiceObject xmi:id="_xUl8jtapEfCxJ9GdDsS0zw" base_Class="1c67ecbd-a604-424b-b5fd-82c631a0be8c"/>
-  <JMM:ServiceObject xmi:id="_xUl8j9apEfCxJ9GdDsS0zw" base_Class="2f6cc8e6-0657-44e9-8ce9-37fdcc256183"/>
-  <JMM:ServiceObject xmi:id="_xUl8kNapEfCxJ9GdDsS0zw" base_Class="3ce35459-e426-4711-a001-49773a848dd4"/>
-  <JMM:ServiceObject xmi:id="_xUl8kdapEfCxJ9GdDsS0zw" base_Class="9245d706-6c9b-4ad5-aa5a-8472ed2c01d8"/>
-  <JMM:ServiceObject xmi:id="_xUl8ktapEfCxJ9GdDsS0zw" base_Class="394e5638-edd3-4a88-b199-9ba8642e0407"/>
-  <JMM:ServiceObject xmi:id="_xUl8k9apEfCxJ9GdDsS0zw" base_Class="6ea6cc28-a981-4fc3-87e5-49b857ebf40d"/>
-  <JMM:ServiceObject xmi:id="_xUl8lNapEfCxJ9GdDsS0zw" base_Class="d67012bb-f872-46a4-a17b-7bb7928c8098"/>
-  <JMM:ServiceObject xmi:id="_xUl8ldapEfCxJ9GdDsS0zw" base_Class="eba4906c-304b-4834-a557-33459a560b02"/>
-  <JMM:ServiceObject xmi:id="_xUl8ltapEfCxJ9GdDsS0zw" base_Class="ec91909b-e651-47e4-8c71-bded209a3211"/>
-  <JMM:ServiceObject xmi:id="_xUl8l9apEfCxJ9GdDsS0zw" base_Class="64f4d6f9-dcce-4b0e-ae51-def01ed40175"/>
-  <JMM:ServiceObject xmi:id="_xUl8mNapEfCxJ9GdDsS0zw" base_Class="0c012d42-1f8d-4205-9091-7583d1e4eba3"/>
-  <JMM:ServiceObject xmi:id="_xUl8mdapEfCxJ9GdDsS0zw" base_Class="8c993387-1472-4f0f-be35-630852a3014f"/>
-  <JMM:ServiceObject xmi:id="_xUl8mtapEfCxJ9GdDsS0zw" base_Class="0df8571d-48ee-4255-8d32-7afa724b23f7"/>
-  <JMM:ServiceObject xmi:id="_xUl8m9apEfCxJ9GdDsS0zw" base_Class="6e2afb66-5001-41d5-a730-da7c724b7dfa"/>
-  <JMM:ServiceObject xmi:id="_xUl8nNapEfCxJ9GdDsS0zw" base_Class="1e55fd4c-d905-404a-856e-c78e8575dffb"/>
-  <JMM:ServiceObject xmi:id="_xUl8ndapEfCxJ9GdDsS0zw" base_Class="e144f41d-87c0-4c79-a67e-f72318905213"/>
-  <JMM:ServiceObject xmi:id="_xUl8ntapEfCxJ9GdDsS0zw" base_Class="8fa59924-ce8d-4fc5-992b-899032884da7"/>
-  <JMM:ServiceObject xmi:id="_xUl8n9apEfCxJ9GdDsS0zw" base_Class="c4e43edf-dc24-4570-ad31-4e7618b9f1aa"/>
-  <JMM:ServiceObject xmi:id="_xUl8oNapEfCxJ9GdDsS0zw" base_Class="5b2f37f3-be5f-4494-9c19-39db74e33f23"/>
-  <JMM:ServiceObject xmi:id="_xUl8odapEfCxJ9GdDsS0zw" base_Class="cb5a4024-247c-42fc-bf94-e1beb94c44d5"/>
-  <JMM:ServiceObject xmi:id="_xUl8otapEfCxJ9GdDsS0zw" base_Class="b7e13344-8858-4909-96b1-266857f60f4c"/>
-  <JMM:ServiceObject xmi:id="_xUl8o9apEfCxJ9GdDsS0zw" base_Class="50e111d5-05eb-4f1d-8b6d-cc40fb66bf0e"/>
-  <JMM:ServiceObject xmi:id="_xUl8pNapEfCxJ9GdDsS0zw" base_Class="4f9c48f7-3bec-4898-b5eb-d6051feff8d1"/>
-  <JMM:ServiceObject xmi:id="_xUl8pdapEfCxJ9GdDsS0zw" base_Class="ba3e4c4b-8e95-48e4-a0d5-2896e9eb3da8"/>
-  <JMM:ServiceObject xmi:id="_xUl8ptapEfCxJ9GdDsS0zw" base_Class="fe4ae1fe-b83c-406b-8a34-779d2a2856e9"/>
-  <JMM:ServiceObject xmi:id="_xUl8p9apEfCxJ9GdDsS0zw" base_Class="1bcd3768-8bc9-473e-9c66-845a3924be5a"/>
-  <JMM:ServiceObject xmi:id="_xUl8qNapEfCxJ9GdDsS0zw" base_Class="b55a0de7-4e5a-4840-a39c-d242a220cd9d"/>
-  <JMM:ServiceObject xmi:id="_xUl8qdapEfCxJ9GdDsS0zw" base_Class="216d23a0-825f-4db7-81c0-24305dd769e7"/>
-  <JMM:ServiceObject xmi:id="_xUl8qtapEfCxJ9GdDsS0zw" base_Class="4caa882c-fb5e-4fdb-9b4d-0ee0e6dcf44b"/>
-  <JMM:ServiceObject xmi:id="_xUl8q9apEfCxJ9GdDsS0zw" base_Class="286f7f24-7ba7-4d8d-a769-6d6518615491"/>
-  <JMM:ServiceObject xmi:id="_xUl8rNapEfCxJ9GdDsS0zw" base_Class="4212a846-0427-4b3e-a7f6-6f24029f86e7"/>
-  <JMM:ServiceObject xmi:id="_xUl8rdapEfCxJ9GdDsS0zw" base_Class="b33ecab1-dce5-45ce-a629-87f7a5056273"/>
-  <JMM:ServiceObject xmi:id="_xUl8rtapEfCxJ9GdDsS0zw" base_Class="357a190c-1de0-4dc1-907c-6862c0da3b45"/>
-  <JMM:ServiceObject xmi:id="_xUl8r9apEfCxJ9GdDsS0zw" base_Class="154e563d-fbd7-468c-8b75-16777ece8b67"/>
-  <JMM:ServiceObject xmi:id="_xUl8sNapEfCxJ9GdDsS0zw" base_Class="6a6ce9b8-3198-423e-9002-0912bb248013"/>
-  <JMM:ServiceObject xmi:id="_xUl8sdapEfCxJ9GdDsS0zw" base_Class="5a3111a0-2df1-49b1-a614-5121c415a599"/>
-  <JMM:ServiceObject xmi:id="_xUl8stapEfCxJ9GdDsS0zw" base_Class="1fc09367-a6a6-4f95-975d-489ab67eeb8f"/>
-  <JMM:ServiceObject xmi:id="_xUmjgNapEfCxJ9GdDsS0zw" base_Class="fe4a8e30-9175-40fd-85c4-53da6dbe9945"/>
-  <JMM:ServiceObject xmi:id="_xUmjgdapEfCxJ9GdDsS0zw" base_Class="035d915e-0652-4c76-9043-b82aefa23f28"/>
-  <JMM:ServiceObject xmi:id="_xUmjgtapEfCxJ9GdDsS0zw" base_Class="48ced59b-d879-4c3a-98cb-ca6a3cb3aeca"/>
-  <JMM:ServiceObject xmi:id="_xUmjg9apEfCxJ9GdDsS0zw" base_Class="d3f447c5-d2bd-4d7c-855c-0f1949074357"/>
-  <JMM:ServiceObject xmi:id="_xUmjhNapEfCxJ9GdDsS0zw" base_Class="e33ab55a-81d6-4636-a3eb-e5b088d951ad"/>
-  <JMM:ServiceObject xmi:id="_xUmjhdapEfCxJ9GdDsS0zw" base_Class="1c2e31ae-9213-4dc8-bced-cea262c454b5"/>
-  <JMM:ServiceObject xmi:id="_xUmjhtapEfCxJ9GdDsS0zw" base_Class="482b5fc2-14b1-4768-986d-4e202c2bcc5a"/>
-  <JMM:ServiceObject xmi:id="_xUmjh9apEfCxJ9GdDsS0zw" base_Class="dfbf19aa-4441-46b5-a75c-f299937933a1"/>
-  <JMM:ServiceObject xmi:id="_xUmjiNapEfCxJ9GdDsS0zw" base_Class="7facb6a0-c9ab-415a-8973-738b52b724f4"/>
-  <JMM:ServiceObject xmi:id="_xUmjidapEfCxJ9GdDsS0zw" base_Class="a017ccfb-12e4-4629-817b-a073ba0a5cc4"/>
-  <JMM:JEAFService xmi:id="_xUmjitapEfCxJ9GdDsS0zw" base_Interface="0162807b-75f5-462b-b1f5-cf2b0eb2c54a"/>
-  <JMM:JEAFService xmi:id="_xUmji9apEfCxJ9GdDsS0zw" base_Interface="6f807dfe-7338-4ad6-b22f-aa0a24d451cc"/>
-  <JMM:JEAFService xmi:id="_xUmjjNapEfCxJ9GdDsS0zw" base_Interface="67aabb05-c07c-45f2-863f-f3c6b2c20d88"/>
-  <JMM:JEAFService xmi:id="_xUmjjdapEfCxJ9GdDsS0zw" base_Interface="8e5224a5-0842-4fce-b350-9b79a5868b71"/>
-  <JMM:JEAFService xmi:id="_xUmjjtapEfCxJ9GdDsS0zw" base_Interface="0b4bf291-338f-4c63-ac11-c2d588807cd1"/>
-  <JMM:JEAFService xmi:id="_xUmjj9apEfCxJ9GdDsS0zw" base_Interface="16cf7382-4e9e-4746-a9be-5b3ce80435fe"/>
-  <JMM:JEAFService xmi:id="_xUmjkNapEfCxJ9GdDsS0zw" base_Interface="c339cf42-c9fe-4c02-961e-9a07716f952b"/>
-  <JMM:JEAFService xmi:id="_xUmjkdapEfCxJ9GdDsS0zw" base_Interface="b8503aee-3a1e-4617-9fd3-47413cd1984b"/>
-  <JMM:JEAFService xmi:id="_xUmjktapEfCxJ9GdDsS0zw" base_Interface="1716f853-1fe7-4c66-9a55-fe72426c79e2"/>
-  <JMM:JEAFService xmi:id="_xUmjk9apEfCxJ9GdDsS0zw" base_Interface="062c6282-dd95-43e5-8dc0-b5bb9e53d205"/>
-  <JMM:JEAFService xmi:id="_xUmjlNapEfCxJ9GdDsS0zw" base_Interface="7423cbc1-efc1-4966-9915-c587006c47a0"/>
-  <JMM:JEAFService xmi:id="_xUmjldapEfCxJ9GdDsS0zw" base_Interface="f0adc865-793a-4bbc-a258-fb7d3cf5b78d"/>
-  <JMM:JEAFService xmi:id="_xUmjltapEfCxJ9GdDsS0zw" base_Interface="5e981cc8-d16a-4ec5-afa1-2a9139425a6c"/>
-  <JMM:JEAFService xmi:id="_xUmjl9apEfCxJ9GdDsS0zw" base_Interface="92027525-0a42-4119-9c13-3c7f6c1f3b1a"/>
-  <JMM:SystemException xmi:id="_xUmjmNapEfCxJ9GdDsS0zw" base_Class="1506c5a1-842e-40a9-b2e5-260dd13d7b35"/>
-  <JMM:SystemException xmi:id="_xUmjmdapEfCxJ9GdDsS0zw" base_Class="4da8f468-b781-40a1-8205-77ed4a5368d4"/>
-  <JMM:SystemException xmi:id="_xUmjmtapEfCxJ9GdDsS0zw" base_Class="aa6d206f-f926-4a36-b7ed-f65aaac22783"/>
-  <JMM:SystemException xmi:id="_xUmjm9apEfCxJ9GdDsS0zw" base_Class="4bf081b2-df75-4133-8dc2-9f5d525518e7"/>
-  <JMM:SystemException xmi:id="_xUmjnNapEfCxJ9GdDsS0zw" base_Class="7d8d6ea5-a4d6-4737-b54c-7009b145fc4c"/>
-  <JMM:SystemException xmi:id="_xUmjndapEfCxJ9GdDsS0zw" base_Class="c9cabc13-6a5e-4329-a803-083b2be6453e"/>
-  <JMM:SystemException xmi:id="_xUmjntapEfCxJ9GdDsS0zw" base_Class="9450bd1b-d3d9-4757-9563-5b6ba73518bf"/>
-  <JMM:QueryObject xmi:id="_xUmjn9apEfCxJ9GdDsS0zw" base_Class="c4eb36fe-7da5-4455-bd43-dfe5784e7fe2"/>
-  <JMM:QueryObject xmi:id="_xUmjoNapEfCxJ9GdDsS0zw" base_Class="deb66346-1172-4875-82db-cad73417b481"/>
-  <JMM:QueryObject xmi:id="_xUmjodapEfCxJ9GdDsS0zw" base_Class="6f613c1f-fe20-4cba-84a2-6cef907395e9"/>
-  <JMM:QueryObject xmi:id="_xUmjotapEfCxJ9GdDsS0zw" base_Class="d513ea6b-33a8-4ed2-8c20-be59953310ad"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjo9apEfCxJ9GdDsS0zw" base_Enumeration="b8eb9e5f-0620-4e8b-9f09-c867f3604304"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjpNapEfCxJ9GdDsS0zw" base_Enumeration="0dc19aa8-e715-4969-a8f9-720a20ce9fae"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjpdapEfCxJ9GdDsS0zw" base_Enumeration="f3a2cf44-2260-43d9-90aa-34cae9f72a8c"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjptapEfCxJ9GdDsS0zw" base_Enumeration="f8a1e35d-cb90-45ce-832a-defc8f05de6f"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjp9apEfCxJ9GdDsS0zw" base_Enumeration="b81fca70-f064-4b9c-aa90-fb1e559a17de"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjqNapEfCxJ9GdDsS0zw" base_Enumeration="8247e135-52e6-48ff-9108-f9b6aea2c8ec"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjqdapEfCxJ9GdDsS0zw" base_Enumeration="dbf41876-d301-44b1-8a80-50e676d778a4"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjqtapEfCxJ9GdDsS0zw" base_Enumeration="f6eb7a19-df87-4e05-a2da-75ba9910ec39"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjq9apEfCxJ9GdDsS0zw" base_Enumeration="b7c72fac-0212-44f5-b773-57cab1a0952d"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjrNapEfCxJ9GdDsS0zw" base_Enumeration="919bdced-00c5-4791-ba05-f29f1cd7860a"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjrdapEfCxJ9GdDsS0zw" base_Enumeration="67c00cf3-2299-41a1-9566-46cd76ef995f"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjrtapEfCxJ9GdDsS0zw" base_Enumeration="32650a4c-3f1c-4fc0-97cd-6332e574ab5d"/>
-  <JMM:JEAFEnumeration xmi:id="_xUmjr9apEfCxJ9GdDsS0zw" base_Enumeration="5ffadba9-5007-4c53-9045-1e7b2b2deee0"/>
-  <JMM:Identifiable xmi:id="_xUmjsNapEfCxJ9GdDsS0zw" base_Class="4d9a37bf-d9fb-4f45-b48b-898c01f04559"/>
-  <JMM:Identifiable xmi:id="_xUmjsdapEfCxJ9GdDsS0zw" base_Class="e1f33f36-2093-4ddd-91fc-d192b91b87cf"/>
-  <JMM:Identifiable xmi:id="_xUmjstapEfCxJ9GdDsS0zw" base_Class="c5775e4b-9494-4208-b5ca-5d573d52c93b"/>
-  <JMM:Identifiable xmi:id="_xUmjs9apEfCxJ9GdDsS0zw" base_Class="32354df4-dff1-4356-a61c-2f9f4e344e2e"/>
-  <JMM:Identifiable xmi:id="_xUmjtNapEfCxJ9GdDsS0zw" base_Class="b362fed4-e1b8-4b87-9380-312c06ac137c"/>
-  <JMM:Identifiable xmi:id="_xUmjtdapEfCxJ9GdDsS0zw" base_Class="698c867f-6ed4-42d6-87e1-deb17b5a0dd2"/>
-  <JMM:Identifiable xmi:id="_xUmjttapEfCxJ9GdDsS0zw" base_Class="d71e962e-61aa-4652-b250-ae9c5c3d5004"/>
-  <JMM:Identifiable xmi:id="_xUmjt9apEfCxJ9GdDsS0zw" base_Class="9c22ea3b-9b8a-4e30-8d87-ce99ce53a515"/>
-  <JMM:Identifiable xmi:id="_xUmjuNapEfCxJ9GdDsS0zw" base_Class="18614848-2553-463a-bc82-f121551b2398"/>
-  <JMM:Identifiable xmi:id="_xUmjudapEfCxJ9GdDsS0zw" base_Class="1c67ecbd-a604-424b-b5fd-82c631a0be8c"/>
-  <JMM:Identifiable xmi:id="_xUmjutapEfCxJ9GdDsS0zw" base_Class="64f4d6f9-dcce-4b0e-ae51-def01ed40175"/>
-  <JMM:Identifiable xmi:id="_xUmju9apEfCxJ9GdDsS0zw" base_Class="0df8571d-48ee-4255-8d32-7afa724b23f7"/>
-  <JMM:Identifiable xmi:id="_xUmjvNapEfCxJ9GdDsS0zw" base_Class="6e2afb66-5001-41d5-a730-da7c724b7dfa"/>
-  <JMM:Identifiable xmi:id="_xUmjvdapEfCxJ9GdDsS0zw" base_Class="8fa59924-ce8d-4fc5-992b-899032884da7"/>
-  <JMM:Identifiable xmi:id="_xUmjvtapEfCxJ9GdDsS0zw" base_Class="b7e13344-8858-4909-96b1-266857f60f4c"/>
-  <JMM:Identifiable xmi:id="_xUmjv9apEfCxJ9GdDsS0zw" base_Class="50e111d5-05eb-4f1d-8b6d-cc40fb66bf0e"/>
-  <JMM:Identifiable xmi:id="_xUmjwNapEfCxJ9GdDsS0zw" base_Class="4f9c48f7-3bec-4898-b5eb-d6051feff8d1"/>
-  <JMM:Identifiable xmi:id="_xUmjwdapEfCxJ9GdDsS0zw" base_Class="fe4ae1fe-b83c-406b-8a34-779d2a2856e9"/>
-  <JMM:Identifiable xmi:id="_xUmjwtapEfCxJ9GdDsS0zw" base_Class="b55a0de7-4e5a-4840-a39c-d242a220cd9d"/>
-  <JMM:Identifiable xmi:id="_xUmjw9apEfCxJ9GdDsS0zw" base_Class="216d23a0-825f-4db7-81c0-24305dd769e7"/>
-  <JMM:Identifiable xmi:id="_xUmjxNapEfCxJ9GdDsS0zw" base_Class="286f7f24-7ba7-4d8d-a769-6d6518615491"/>
-  <JMM:Identifiable xmi:id="_xUmjxdapEfCxJ9GdDsS0zw" base_Class="4212a846-0427-4b3e-a7f6-6f24029f86e7"/>
-  <JMM:Identifiable xmi:id="_xUmjxtapEfCxJ9GdDsS0zw" base_Class="b33ecab1-dce5-45ce-a629-87f7a5056273"/>
-  <JMM:Identifiable xmi:id="_xUmjx9apEfCxJ9GdDsS0zw" base_Class="357a190c-1de0-4dc1-907c-6862c0da3b45"/>
-  <JMM:Identifiable xmi:id="_xUmjyNapEfCxJ9GdDsS0zw" base_Class="154e563d-fbd7-468c-8b75-16777ece8b67"/>
-  <JMM:Identifiable xmi:id="_xUmjydapEfCxJ9GdDsS0zw" base_Class="6a6ce9b8-3198-423e-9002-0912bb248013"/>
-  <JMM:Identifiable xmi:id="_xUmjytapEfCxJ9GdDsS0zw" base_Class="fe4a8e30-9175-40fd-85c4-53da6dbe9945"/>
-  <JMM:Identifiable xmi:id="_xUmjy9apEfCxJ9GdDsS0zw" base_Class="035d915e-0652-4c76-9043-b82aefa23f28"/>
-  <JMM:Identifiable xmi:id="_xUmjzNapEfCxJ9GdDsS0zw" base_Class="48ced59b-d879-4c3a-98cb-ca6a3cb3aeca"/>
-  <JMM:Identifiable xmi:id="_xUmjzdapEfCxJ9GdDsS0zw" base_Class="dfbf19aa-4441-46b5-a75c-f299937933a1"/>
-  <JMM:Identifiable xmi:id="_xUmjztapEfCxJ9GdDsS0zw" base_Class="7facb6a0-c9ab-415a-8973-738b52b724f4"/>
-  <JMM:Identifiable xmi:id="_xUmjz9apEfCxJ9GdDsS0zw" base_Class="a017ccfb-12e4-4629-817b-a073ba0a5cc4"/>
-  <Standard:ModelLibrary xmi:id="_xUvtcNapEfCxJ9GdDsS0zw" base_Package="86813cab-f67b-4684-a3c2-f6ca9c60df13"/>
+  <JMM:LoadStrategy xmi:id="_vxGZINkJEfCGq_DSKmEnqw" base_Class="9d501a8c-9dd7-480c-9aca-6d8769405986"/>
+  <JMM:LoadStrategy xmi:id="_vxGZIdkJEfCGq_DSKmEnqw" base_Class="5ad094d9-2022-4dc5-9983-b408f1a630c3"/>
+  <JMM:LoadStrategy xmi:id="_vxGZItkJEfCGq_DSKmEnqw" base_Class="7bbb846c-b007-4afe-8d19-d8905d54a275"/>
+  <JMM:LoadStrategy xmi:id="_vxGZI9kJEfCGq_DSKmEnqw" base_Class="b0594681-827c-4e51-8e26-ae798a0fd969"/>
+  <JMM:LoadStrategy xmi:id="_vxGZJNkJEfCGq_DSKmEnqw" base_Class="4776f105-f1bc-45fd-8936-0dfb8154b886"/>
+  <JMM:LoadStrategy xmi:id="_vxGZJdkJEfCGq_DSKmEnqw" base_Class="e37cee51-cc01-4de8-a0f6-f979bbaac5dc"/>
+  <JMM:JEAFServiceProvider xmi:id="_vxGZJtkJEfCGq_DSKmEnqw" base_Interface="7b63daea-295d-4d2f-9704-5a67c6709d4c"/>
+  <JMM:JEAFServiceProvider xmi:id="_vxGZJ9kJEfCGq_DSKmEnqw" base_Interface="0dbd3b09-609e-422f-b2d0-2ec7e7c1cf97"/>
+  <JMM:JEAFServiceProvider xmi:id="_vxGZKNkJEfCGq_DSKmEnqw" base_Interface="65c40719-8b48-4d61-bb3a-1bb99535e189"/>
+  <JMM:JEAFServiceProvider xmi:id="_vxGZKdkJEfCGq_DSKmEnqw" base_Interface="ef7a1d5e-8e35-486e-b74f-6b97a783321f"/>
+  <JMM:JEAFServiceProvider xmi:id="_vxGZKtkJEfCGq_DSKmEnqw" base_Interface="663539b1-893a-45db-8086-711ac169afce"/>
+  <JMM:JEAFServiceProvider xmi:id="_vxGZK9kJEfCGq_DSKmEnqw" base_Interface="91fedbcc-8ca4-4914-a333-154fbbc3e680"/>
+  <JMM:ApplicationException xmi:id="_vxGZLNkJEfCGq_DSKmEnqw" base_Class="728db9f5-ac09-4d9b-9029-ad83797e87c2"/>
+  <JMM:ApplicationException xmi:id="_vxGZLdkJEfCGq_DSKmEnqw" base_Class="fbb59b7a-83aa-48f5-b49e-a78ff90f2cc3"/>
+  <JMM:ApplicationException xmi:id="_vxGZLtkJEfCGq_DSKmEnqw" base_Class="34afc994-4e14-4d82-90fa-0af477bdf8ce"/>
+  <JMM:ApplicationException xmi:id="_vxGZL9kJEfCGq_DSKmEnqw" base_Class="53b3a948-06b9-43a3-9359-59a5bd2a9ee7"/>
+  <JMM:ApplicationException xmi:id="_vxGZMNkJEfCGq_DSKmEnqw" base_Class="a4a89418-48fc-41ba-90d5-e126329f69b9"/>
+  <JMM:ApplicationException xmi:id="_vxGZMdkJEfCGq_DSKmEnqw" base_Class="44128943-aebe-4a1c-949c-d16bd351a9c8"/>
+  <JMM:Field xmi:id="_vxGZMtkJEfCGq_DSKmEnqw" base_Property="9192f84c-eef7-4434-9d3d-6783d174ca59"/>
+  <JMM:Field xmi:id="_vxGZM9kJEfCGq_DSKmEnqw" base_Property="65f45158-ffa6-4fb5-a43a-86426ac99079"/>
+  <JMM:Field xmi:id="_vxGZNNkJEfCGq_DSKmEnqw" base_Property="ddc5033f-767c-4009-8953-3474d4c18385" charLength="15"/>
+  <JMM:Field xmi:id="_vxGZNdkJEfCGq_DSKmEnqw" base_Property="d447e05a-00e8-45b9-9814-514a6cc38b40"/>
+  <JMM:Field xmi:id="_vxGZNtkJEfCGq_DSKmEnqw" base_Property="fb126dcc-cb5d-4a38-a19a-6cc053815772"/>
+  <JMM:UserType xmi:id="_vxGZN9kJEfCGq_DSKmEnqw" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.GenderType" base_Enumeration="7bceb940-d8d9-41b1-86b4-9d0df5874c72"/>
+  <JMM:UserType xmi:id="_vxGZONkJEfCGq_DSKmEnqw" base_Class="de4466e9-dd37-4d9d-baf3-99f068a520a0" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.EncryptedStringType"/>
+  <JMM:UserType xmi:id="_vxGZOdkJEfCGq_DSKmEnqw" base_Class="47902314-eedc-4f18-8bc8-89358d019317" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.PeriodType"/>
+  <JMM:UserType xmi:id="_vxGZOtkJEfCGq_DSKmEnqw" base_Class="da80d511-dd33-4c70-86fd-f99243da97ca" typeClass="com.anaptecs.jeaf.serviceproviders.persistence.hibernate.types.LocalizedStringType"/>
+  <JMM:ServiceObject xmi:id="_vxGZO9kJEfCGq_DSKmEnqw" base_Class="4d9a37bf-d9fb-4f45-b48b-898c01f04559"/>
+  <JMM:ServiceObject xmi:id="_vxGZPNkJEfCGq_DSKmEnqw" base_Class="e1f33f36-2093-4ddd-91fc-d192b91b87cf"/>
+  <JMM:ServiceObject xmi:id="_vxGZPdkJEfCGq_DSKmEnqw" base_Class="c5775e4b-9494-4208-b5ca-5d573d52c93b"/>
+  <JMM:ServiceObject xmi:id="_vxGZPtkJEfCGq_DSKmEnqw" base_Class="32354df4-dff1-4356-a61c-2f9f4e344e2e"/>
+  <JMM:ServiceObject xmi:id="_vxGZP9kJEfCGq_DSKmEnqw" base_Class="b362fed4-e1b8-4b87-9380-312c06ac137c"/>
+  <JMM:ServiceObject xmi:id="_vxGZQNkJEfCGq_DSKmEnqw" base_Class="2c9ec234-54df-442b-b466-eab655b05b12"/>
+  <JMM:ServiceObject xmi:id="_vxGZQdkJEfCGq_DSKmEnqw" base_Class="698c867f-6ed4-42d6-87e1-deb17b5a0dd2"/>
+  <JMM:ServiceObject xmi:id="_vxGZQtkJEfCGq_DSKmEnqw" base_Class="d98158bd-4740-4e70-9c6a-c2347681dc5e"/>
+  <JMM:ServiceObject xmi:id="_vxGZQ9kJEfCGq_DSKmEnqw" base_Class="d71e962e-61aa-4652-b250-ae9c5c3d5004"/>
+  <JMM:ServiceObject xmi:id="_vxGZRNkJEfCGq_DSKmEnqw" base_Class="9c22ea3b-9b8a-4e30-8d87-ce99ce53a515"/>
+  <JMM:ServiceObject xmi:id="_vxHAMNkJEfCGq_DSKmEnqw" base_Class="18614848-2553-463a-bc82-f121551b2398"/>
+  <JMM:ServiceObject xmi:id="_vxHAMdkJEfCGq_DSKmEnqw" base_Class="1c67ecbd-a604-424b-b5fd-82c631a0be8c"/>
+  <JMM:ServiceObject xmi:id="_vxHAMtkJEfCGq_DSKmEnqw" base_Class="2f6cc8e6-0657-44e9-8ce9-37fdcc256183"/>
+  <JMM:ServiceObject xmi:id="_vxHAM9kJEfCGq_DSKmEnqw" base_Class="3ce35459-e426-4711-a001-49773a848dd4"/>
+  <JMM:ServiceObject xmi:id="_vxHANNkJEfCGq_DSKmEnqw" base_Class="9245d706-6c9b-4ad5-aa5a-8472ed2c01d8"/>
+  <JMM:ServiceObject xmi:id="_vxHANdkJEfCGq_DSKmEnqw" base_Class="394e5638-edd3-4a88-b199-9ba8642e0407"/>
+  <JMM:ServiceObject xmi:id="_vxHANtkJEfCGq_DSKmEnqw" base_Class="6ea6cc28-a981-4fc3-87e5-49b857ebf40d"/>
+  <JMM:ServiceObject xmi:id="_vxHAN9kJEfCGq_DSKmEnqw" base_Class="d67012bb-f872-46a4-a17b-7bb7928c8098"/>
+  <JMM:ServiceObject xmi:id="_vxHAONkJEfCGq_DSKmEnqw" base_Class="eba4906c-304b-4834-a557-33459a560b02"/>
+  <JMM:ServiceObject xmi:id="_vxHAOdkJEfCGq_DSKmEnqw" base_Class="ec91909b-e651-47e4-8c71-bded209a3211"/>
+  <JMM:ServiceObject xmi:id="_vxHAOtkJEfCGq_DSKmEnqw" base_Class="64f4d6f9-dcce-4b0e-ae51-def01ed40175"/>
+  <JMM:ServiceObject xmi:id="_vxHAO9kJEfCGq_DSKmEnqw" base_Class="0c012d42-1f8d-4205-9091-7583d1e4eba3"/>
+  <JMM:ServiceObject xmi:id="_vxHAPNkJEfCGq_DSKmEnqw" base_Class="8c993387-1472-4f0f-be35-630852a3014f"/>
+  <JMM:ServiceObject xmi:id="_vxHAPdkJEfCGq_DSKmEnqw" base_Class="0df8571d-48ee-4255-8d32-7afa724b23f7"/>
+  <JMM:ServiceObject xmi:id="_vxHAPtkJEfCGq_DSKmEnqw" base_Class="6e2afb66-5001-41d5-a730-da7c724b7dfa"/>
+  <JMM:ServiceObject xmi:id="_vxHAP9kJEfCGq_DSKmEnqw" base_Class="1e55fd4c-d905-404a-856e-c78e8575dffb"/>
+  <JMM:ServiceObject xmi:id="_vxHAQNkJEfCGq_DSKmEnqw" base_Class="e144f41d-87c0-4c79-a67e-f72318905213"/>
+  <JMM:ServiceObject xmi:id="_vxHAQdkJEfCGq_DSKmEnqw" base_Class="8fa59924-ce8d-4fc5-992b-899032884da7"/>
+  <JMM:ServiceObject xmi:id="_vxHAQtkJEfCGq_DSKmEnqw" base_Class="c4e43edf-dc24-4570-ad31-4e7618b9f1aa"/>
+  <JMM:ServiceObject xmi:id="_vxHAQ9kJEfCGq_DSKmEnqw" base_Class="5b2f37f3-be5f-4494-9c19-39db74e33f23"/>
+  <JMM:ServiceObject xmi:id="_vxHARNkJEfCGq_DSKmEnqw" base_Class="cb5a4024-247c-42fc-bf94-e1beb94c44d5"/>
+  <JMM:ServiceObject xmi:id="_vxHARdkJEfCGq_DSKmEnqw" base_Class="b7e13344-8858-4909-96b1-266857f60f4c"/>
+  <JMM:ServiceObject xmi:id="_vxHARtkJEfCGq_DSKmEnqw" base_Class="50e111d5-05eb-4f1d-8b6d-cc40fb66bf0e"/>
+  <JMM:ServiceObject xmi:id="_vxHAR9kJEfCGq_DSKmEnqw" base_Class="4f9c48f7-3bec-4898-b5eb-d6051feff8d1"/>
+  <JMM:ServiceObject xmi:id="_vxHASNkJEfCGq_DSKmEnqw" base_Class="ba3e4c4b-8e95-48e4-a0d5-2896e9eb3da8"/>
+  <JMM:ServiceObject xmi:id="_vxHASdkJEfCGq_DSKmEnqw" base_Class="fe4ae1fe-b83c-406b-8a34-779d2a2856e9"/>
+  <JMM:ServiceObject xmi:id="_vxHAStkJEfCGq_DSKmEnqw" base_Class="1bcd3768-8bc9-473e-9c66-845a3924be5a"/>
+  <JMM:ServiceObject xmi:id="_vxHAS9kJEfCGq_DSKmEnqw" base_Class="b55a0de7-4e5a-4840-a39c-d242a220cd9d"/>
+  <JMM:ServiceObject xmi:id="_vxHATNkJEfCGq_DSKmEnqw" base_Class="216d23a0-825f-4db7-81c0-24305dd769e7"/>
+  <JMM:ServiceObject xmi:id="_vxHATdkJEfCGq_DSKmEnqw" base_Class="4caa882c-fb5e-4fdb-9b4d-0ee0e6dcf44b"/>
+  <JMM:ServiceObject xmi:id="_vxHATtkJEfCGq_DSKmEnqw" base_Class="286f7f24-7ba7-4d8d-a769-6d6518615491"/>
+  <JMM:ServiceObject xmi:id="_vxHAT9kJEfCGq_DSKmEnqw" base_Class="4212a846-0427-4b3e-a7f6-6f24029f86e7"/>
+  <JMM:ServiceObject xmi:id="_vxHAUNkJEfCGq_DSKmEnqw" base_Class="b33ecab1-dce5-45ce-a629-87f7a5056273"/>
+  <JMM:ServiceObject xmi:id="_vxHAUdkJEfCGq_DSKmEnqw" base_Class="357a190c-1de0-4dc1-907c-6862c0da3b45"/>
+  <JMM:ServiceObject xmi:id="_vxHAUtkJEfCGq_DSKmEnqw" base_Class="154e563d-fbd7-468c-8b75-16777ece8b67"/>
+  <JMM:ServiceObject xmi:id="_vxHAU9kJEfCGq_DSKmEnqw" base_Class="6a6ce9b8-3198-423e-9002-0912bb248013"/>
+  <JMM:ServiceObject xmi:id="_vxHnQNkJEfCGq_DSKmEnqw" base_Class="5a3111a0-2df1-49b1-a614-5121c415a599"/>
+  <JMM:ServiceObject xmi:id="_vxHnQdkJEfCGq_DSKmEnqw" base_Class="1fc09367-a6a6-4f95-975d-489ab67eeb8f"/>
+  <JMM:ServiceObject xmi:id="_vxHnQtkJEfCGq_DSKmEnqw" base_Class="fe4a8e30-9175-40fd-85c4-53da6dbe9945"/>
+  <JMM:ServiceObject xmi:id="_vxHnQ9kJEfCGq_DSKmEnqw" base_Class="035d915e-0652-4c76-9043-b82aefa23f28"/>
+  <JMM:ServiceObject xmi:id="_vxHnRNkJEfCGq_DSKmEnqw" base_Class="48ced59b-d879-4c3a-98cb-ca6a3cb3aeca"/>
+  <JMM:ServiceObject xmi:id="_vxHnRdkJEfCGq_DSKmEnqw" base_Class="d3f447c5-d2bd-4d7c-855c-0f1949074357"/>
+  <JMM:ServiceObject xmi:id="_vxHnRtkJEfCGq_DSKmEnqw" base_Class="e33ab55a-81d6-4636-a3eb-e5b088d951ad"/>
+  <JMM:ServiceObject xmi:id="_vxHnR9kJEfCGq_DSKmEnqw" base_Class="1c2e31ae-9213-4dc8-bced-cea262c454b5"/>
+  <JMM:ServiceObject xmi:id="_vxHnSNkJEfCGq_DSKmEnqw" base_Class="482b5fc2-14b1-4768-986d-4e202c2bcc5a"/>
+  <JMM:ServiceObject xmi:id="_vxHnSdkJEfCGq_DSKmEnqw" base_Class="dfbf19aa-4441-46b5-a75c-f299937933a1"/>
+  <JMM:ServiceObject xmi:id="_vxHnStkJEfCGq_DSKmEnqw" base_Class="7facb6a0-c9ab-415a-8973-738b52b724f4"/>
+  <JMM:ServiceObject xmi:id="_vxHnS9kJEfCGq_DSKmEnqw" base_Class="a017ccfb-12e4-4629-817b-a073ba0a5cc4"/>
+  <JMM:JEAFService xmi:id="_vxHnTNkJEfCGq_DSKmEnqw" base_Interface="0162807b-75f5-462b-b1f5-cf2b0eb2c54a"/>
+  <JMM:JEAFService xmi:id="_vxHnTdkJEfCGq_DSKmEnqw" base_Interface="6f807dfe-7338-4ad6-b22f-aa0a24d451cc"/>
+  <JMM:JEAFService xmi:id="_vxHnTtkJEfCGq_DSKmEnqw" base_Interface="67aabb05-c07c-45f2-863f-f3c6b2c20d88"/>
+  <JMM:JEAFService xmi:id="_vxHnT9kJEfCGq_DSKmEnqw" base_Interface="8e5224a5-0842-4fce-b350-9b79a5868b71"/>
+  <JMM:JEAFService xmi:id="_vxHnUNkJEfCGq_DSKmEnqw" base_Interface="0b4bf291-338f-4c63-ac11-c2d588807cd1"/>
+  <JMM:JEAFService xmi:id="_vxHnUdkJEfCGq_DSKmEnqw" base_Interface="16cf7382-4e9e-4746-a9be-5b3ce80435fe"/>
+  <JMM:JEAFService xmi:id="_vxHnUtkJEfCGq_DSKmEnqw" base_Interface="c339cf42-c9fe-4c02-961e-9a07716f952b"/>
+  <JMM:JEAFService xmi:id="_vxHnU9kJEfCGq_DSKmEnqw" base_Interface="b8503aee-3a1e-4617-9fd3-47413cd1984b"/>
+  <JMM:JEAFService xmi:id="_vxHnVNkJEfCGq_DSKmEnqw" base_Interface="1716f853-1fe7-4c66-9a55-fe72426c79e2"/>
+  <JMM:JEAFService xmi:id="_vxHnVdkJEfCGq_DSKmEnqw" base_Interface="062c6282-dd95-43e5-8dc0-b5bb9e53d205"/>
+  <JMM:JEAFService xmi:id="_vxHnVtkJEfCGq_DSKmEnqw" base_Interface="7423cbc1-efc1-4966-9915-c587006c47a0"/>
+  <JMM:JEAFService xmi:id="_vxHnV9kJEfCGq_DSKmEnqw" base_Interface="f0adc865-793a-4bbc-a258-fb7d3cf5b78d"/>
+  <JMM:JEAFService xmi:id="_vxHnWNkJEfCGq_DSKmEnqw" base_Interface="5e981cc8-d16a-4ec5-afa1-2a9139425a6c"/>
+  <JMM:JEAFService xmi:id="_vxHnWdkJEfCGq_DSKmEnqw" base_Interface="92027525-0a42-4119-9c13-3c7f6c1f3b1a"/>
+  <JMM:SystemException xmi:id="_vxHnWtkJEfCGq_DSKmEnqw" base_Class="1506c5a1-842e-40a9-b2e5-260dd13d7b35"/>
+  <JMM:SystemException xmi:id="_vxHnW9kJEfCGq_DSKmEnqw" base_Class="4da8f468-b781-40a1-8205-77ed4a5368d4"/>
+  <JMM:SystemException xmi:id="_vxHnXNkJEfCGq_DSKmEnqw" base_Class="aa6d206f-f926-4a36-b7ed-f65aaac22783"/>
+  <JMM:SystemException xmi:id="_vxHnXdkJEfCGq_DSKmEnqw" base_Class="4bf081b2-df75-4133-8dc2-9f5d525518e7"/>
+  <JMM:SystemException xmi:id="_vxHnXtkJEfCGq_DSKmEnqw" base_Class="7d8d6ea5-a4d6-4737-b54c-7009b145fc4c"/>
+  <JMM:SystemException xmi:id="_vxHnX9kJEfCGq_DSKmEnqw" base_Class="c9cabc13-6a5e-4329-a803-083b2be6453e"/>
+  <JMM:SystemException xmi:id="_vxHnYNkJEfCGq_DSKmEnqw" base_Class="9450bd1b-d3d9-4757-9563-5b6ba73518bf"/>
+  <JMM:QueryObject xmi:id="_vxHnYdkJEfCGq_DSKmEnqw" base_Class="c4eb36fe-7da5-4455-bd43-dfe5784e7fe2"/>
+  <JMM:QueryObject xmi:id="_vxHnYtkJEfCGq_DSKmEnqw" base_Class="deb66346-1172-4875-82db-cad73417b481"/>
+  <JMM:QueryObject xmi:id="_vxHnY9kJEfCGq_DSKmEnqw" base_Class="6f613c1f-fe20-4cba-84a2-6cef907395e9"/>
+  <JMM:QueryObject xmi:id="_vxHnZNkJEfCGq_DSKmEnqw" base_Class="d513ea6b-33a8-4ed2-8c20-be59953310ad"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnZdkJEfCGq_DSKmEnqw" base_Enumeration="b8eb9e5f-0620-4e8b-9f09-c867f3604304"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnZtkJEfCGq_DSKmEnqw" base_Enumeration="0dc19aa8-e715-4969-a8f9-720a20ce9fae"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnZ9kJEfCGq_DSKmEnqw" base_Enumeration="f3a2cf44-2260-43d9-90aa-34cae9f72a8c"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnaNkJEfCGq_DSKmEnqw" base_Enumeration="f8a1e35d-cb90-45ce-832a-defc8f05de6f"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnadkJEfCGq_DSKmEnqw" base_Enumeration="b81fca70-f064-4b9c-aa90-fb1e559a17de"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnatkJEfCGq_DSKmEnqw" base_Enumeration="8247e135-52e6-48ff-9108-f9b6aea2c8ec"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHna9kJEfCGq_DSKmEnqw" base_Enumeration="dbf41876-d301-44b1-8a80-50e676d778a4"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnbNkJEfCGq_DSKmEnqw" base_Enumeration="f6eb7a19-df87-4e05-a2da-75ba9910ec39"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnbdkJEfCGq_DSKmEnqw" base_Enumeration="b7c72fac-0212-44f5-b773-57cab1a0952d"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnbtkJEfCGq_DSKmEnqw" base_Enumeration="919bdced-00c5-4791-ba05-f29f1cd7860a"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHnb9kJEfCGq_DSKmEnqw" base_Enumeration="67c00cf3-2299-41a1-9566-46cd76ef995f"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHncNkJEfCGq_DSKmEnqw" base_Enumeration="32650a4c-3f1c-4fc0-97cd-6332e574ab5d"/>
+  <JMM:JEAFEnumeration xmi:id="_vxHncdkJEfCGq_DSKmEnqw" base_Enumeration="5ffadba9-5007-4c53-9045-1e7b2b2deee0"/>
+  <JMM:Identifiable xmi:id="_vxHnctkJEfCGq_DSKmEnqw" base_Class="4d9a37bf-d9fb-4f45-b48b-898c01f04559"/>
+  <JMM:Identifiable xmi:id="_vxHnc9kJEfCGq_DSKmEnqw" base_Class="e1f33f36-2093-4ddd-91fc-d192b91b87cf"/>
+  <JMM:Identifiable xmi:id="_vxHndNkJEfCGq_DSKmEnqw" base_Class="c5775e4b-9494-4208-b5ca-5d573d52c93b"/>
+  <JMM:Identifiable xmi:id="_vxHnddkJEfCGq_DSKmEnqw" base_Class="32354df4-dff1-4356-a61c-2f9f4e344e2e"/>
+  <JMM:Identifiable xmi:id="_vxHndtkJEfCGq_DSKmEnqw" base_Class="b362fed4-e1b8-4b87-9380-312c06ac137c"/>
+  <JMM:Identifiable xmi:id="_vxHnd9kJEfCGq_DSKmEnqw" base_Class="698c867f-6ed4-42d6-87e1-deb17b5a0dd2"/>
+  <JMM:Identifiable xmi:id="_vxHneNkJEfCGq_DSKmEnqw" base_Class="d71e962e-61aa-4652-b250-ae9c5c3d5004"/>
+  <JMM:Identifiable xmi:id="_vxIOUNkJEfCGq_DSKmEnqw" base_Class="9c22ea3b-9b8a-4e30-8d87-ce99ce53a515"/>
+  <JMM:Identifiable xmi:id="_vxIOUdkJEfCGq_DSKmEnqw" base_Class="18614848-2553-463a-bc82-f121551b2398"/>
+  <JMM:Identifiable xmi:id="_vxIOUtkJEfCGq_DSKmEnqw" base_Class="1c67ecbd-a604-424b-b5fd-82c631a0be8c"/>
+  <JMM:Identifiable xmi:id="_vxIOU9kJEfCGq_DSKmEnqw" base_Class="64f4d6f9-dcce-4b0e-ae51-def01ed40175"/>
+  <JMM:Identifiable xmi:id="_vxIOVNkJEfCGq_DSKmEnqw" base_Class="0df8571d-48ee-4255-8d32-7afa724b23f7"/>
+  <JMM:Identifiable xmi:id="_vxIOVdkJEfCGq_DSKmEnqw" base_Class="6e2afb66-5001-41d5-a730-da7c724b7dfa"/>
+  <JMM:Identifiable xmi:id="_vxIOVtkJEfCGq_DSKmEnqw" base_Class="8fa59924-ce8d-4fc5-992b-899032884da7"/>
+  <JMM:Identifiable xmi:id="_vxIOV9kJEfCGq_DSKmEnqw" base_Class="b7e13344-8858-4909-96b1-266857f60f4c"/>
+  <JMM:Identifiable xmi:id="_vxIOWNkJEfCGq_DSKmEnqw" base_Class="50e111d5-05eb-4f1d-8b6d-cc40fb66bf0e"/>
+  <JMM:Identifiable xmi:id="_vxIOWdkJEfCGq_DSKmEnqw" base_Class="4f9c48f7-3bec-4898-b5eb-d6051feff8d1"/>
+  <JMM:Identifiable xmi:id="_vxIOWtkJEfCGq_DSKmEnqw" base_Class="fe4ae1fe-b83c-406b-8a34-779d2a2856e9"/>
+  <JMM:Identifiable xmi:id="_vxIOW9kJEfCGq_DSKmEnqw" base_Class="b55a0de7-4e5a-4840-a39c-d242a220cd9d"/>
+  <JMM:Identifiable xmi:id="_vxIOXNkJEfCGq_DSKmEnqw" base_Class="216d23a0-825f-4db7-81c0-24305dd769e7"/>
+  <JMM:Identifiable xmi:id="_vxIOXdkJEfCGq_DSKmEnqw" base_Class="286f7f24-7ba7-4d8d-a769-6d6518615491"/>
+  <JMM:Identifiable xmi:id="_vxIOXtkJEfCGq_DSKmEnqw" base_Class="4212a846-0427-4b3e-a7f6-6f24029f86e7"/>
+  <JMM:Identifiable xmi:id="_vxIOX9kJEfCGq_DSKmEnqw" base_Class="b33ecab1-dce5-45ce-a629-87f7a5056273"/>
+  <JMM:Identifiable xmi:id="_vxIOYNkJEfCGq_DSKmEnqw" base_Class="357a190c-1de0-4dc1-907c-6862c0da3b45"/>
+  <JMM:Identifiable xmi:id="_vxIOYdkJEfCGq_DSKmEnqw" base_Class="154e563d-fbd7-468c-8b75-16777ece8b67"/>
+  <JMM:Identifiable xmi:id="_vxIOYtkJEfCGq_DSKmEnqw" base_Class="6a6ce9b8-3198-423e-9002-0912bb248013"/>
+  <JMM:Identifiable xmi:id="_vxIOY9kJEfCGq_DSKmEnqw" base_Class="fe4a8e30-9175-40fd-85c4-53da6dbe9945"/>
+  <JMM:Identifiable xmi:id="_vxIOZNkJEfCGq_DSKmEnqw" base_Class="035d915e-0652-4c76-9043-b82aefa23f28"/>
+  <JMM:Identifiable xmi:id="_vxIOZdkJEfCGq_DSKmEnqw" base_Class="48ced59b-d879-4c3a-98cb-ca6a3cb3aeca"/>
+  <JMM:Identifiable xmi:id="_vxIOZtkJEfCGq_DSKmEnqw" base_Class="dfbf19aa-4441-46b5-a75c-f299937933a1"/>
+  <JMM:Identifiable xmi:id="_vxIOZ9kJEfCGq_DSKmEnqw" base_Class="7facb6a0-c9ab-415a-8973-738b52b724f4"/>
+  <JMM:Identifiable xmi:id="_vxIOaNkJEfCGq_DSKmEnqw" base_Class="a017ccfb-12e4-4629-817b-a073ba0a5cc4"/>
+  <Standard:ModelLibrary xmi:id="_vxO8ANkJEfCGq_DSKmEnqw" base_Package="86813cab-f67b-4684-a3c2-f6ca9c60df13"/>
 </xmi:XMI>
